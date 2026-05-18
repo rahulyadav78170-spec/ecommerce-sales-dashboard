@@ -82,19 +82,21 @@ across 29 Indian states.
 ### Regional Analysis
 ![Page 3](screenshots/page3_regional_analysis.png)
 
-## Project Structure
+## 📂 Project Structure
+
+```bash
 ecommerce-sales-dashboard/
 │
 ├── data/
-│   ├── Amazon Sale Report.csv        ← original raw dataset
-│   └── ecommerce_cleaned.csv         ← cleaned dataset (Python output)
+│   ├── Amazon Sale Report.csv        # Original raw dataset
+│   └── ecommerce_cleaned.csv         # Cleaned dataset (Python output)
 │
 ├── scripts/
-│   └── clean_ecommerce.py            ← full data cleaning script
+│   └── clean_ecommerce.py            # Data cleaning script
 │
 ├── dashboard/
-│   ├── EcommerceDashboard.pbix       ← Power BI file
-│   └── ECommerce_Sales_Dashboard.pdf ← exported PDF report
+│   ├── EcommerceDashboard.pbix       # Power BI dashboard file
+│   └── ECommerce_Sales_Dashboard.pdf # Exported PDF report
 │
 ├── screenshots/
 │   ├── page1_executive_summary.png
@@ -102,3 +104,4 @@ ecommerce-sales-dashboard/
 │   └── page3_regional_analysis.png
 │
 └── README.md
+```
